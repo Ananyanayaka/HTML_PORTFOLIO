@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f7fc;
+    color: #333;
+    line-height: 1.6;
+}
+
+.container {
+    width: 85%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    background-color: #0073e6;
+    color: white;
+    text-align: center;
+    padding: 30px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 1.2rem;
+    font-weight: 300;
+}
+
+section h2 {
+    font-size: 1.8rem;
+    color: #333;
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+    border-bottom: 2px solid #0073e6;
+    margin-top: 30px;
+}
+
+section ul {
+    margin: 20px 0;
+    padding-left: 20px;
+}
+
+section ul li {
+    margin-bottom: 10px;
+    font-size: 1rem;
+}
+
+a {
+    color: #0073e6;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.contact-info,
+.skills,
+.experience,
+.education {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 30px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-info li,
+.skills li,
+.experience li,
+.education li {
+    font-size: 1rem;
+}
+
+.experience div, 
+.education ul {
+    margin-left: 20px;
+}
+
+.experience h3,
+.education li {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #0073e6;
+}
+
+.experience p, 
+.education li {
+    margin-top: 5px;
+}
+
+.experience ul li,
+.education li {
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+.experience div {
+    margin-bottom: 20px;
+}
+
+.skills ul {
+    list-style-type: none;
+}
+
+.skills ul li {
+    display: inline-block;
+    background-color: #0073e6;
+    color: white;
+    padding: 5px 15px;
+    margin: 5px;
+    border-radius: 20px;
+    font-size: 1rem;
+}
+
+.skills ul li:hover {
+    background-color: #005bb5;
+}
+
